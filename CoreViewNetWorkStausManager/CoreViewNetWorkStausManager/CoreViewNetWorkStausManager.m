@@ -17,10 +17,10 @@
     //先移除一次
     [self dismiss:view];
     
-    //创建CMView
-    CMView *myCmView=[CMView cmViewWithType:type msg:msg subMsg:subMsg offsetY:offsetY failClickBlock:failClickBlock];
-    
     dispatch_async(dispatch_get_main_queue(), ^{
+        
+        //创建CMView
+        CMView *myCmView=[CMView cmViewWithType:type msg:msg subMsg:subMsg offsetY:offsetY failClickBlock:failClickBlock];
         
         [view addSubview:myCmView];
         
