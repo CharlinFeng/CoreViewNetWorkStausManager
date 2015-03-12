@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE720C9C1AB14B9E0023154D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720C9B1AB14B9E0023154D /* main.m */; };
+		EE720C9F1AB14B9E0023154D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720C9E1AB14B9E0023154D /* AppDelegate.m */; };
+		EE720CA21AB14B9E0023154D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CA11AB14B9E0023154D /* ViewController.m */; };
+		EE720CA51AB14B9E0023154D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE720CA31AB14B9E0023154D /* Main.storyboard */; };
+		EE720CA71AB14B9E0023154D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE720CA61AB14B9E0023154D /* Images.xcassets */; };
+		EE720CAA1AB14B9E0023154D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE720CA81AB14B9E0023154D /* LaunchScreen.xib */; };
+		EE720CB61AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CB51AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m */; };
+		EE720CC21AB14BD20023154D /* CoreViewNetWorkStausManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */; };
+		EE720CC61AB14D490023154D /* CMView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CC51AB14D490023154D /* CMView.m */; };
+		EE720CC81AB14D5F0023154D /* CMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE720CC71AB14D5F0023154D /* CMView.xib */; };
+		EE720CCA1AB14DDF0023154D /* CM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE720CC91AB14DDF0023154D /* CM.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE720CB01AB14B9E0023154D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE720C8E1AB14B9E0023154D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE720C951AB14B9E0023154D;
+			remoteInfo = CoreViewNetWorkStausManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE720C961AB14B9E0023154D /* CoreViewNetWorkStausManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreViewNetWorkStausManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE720C9A1AB14B9E0023154D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE720C9B1AB14B9E0023154D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE720C9D1AB14B9E0023154D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE720C9E1AB14B9E0023154D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE720CA01AB14B9E0023154D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE720CA11AB14B9E0023154D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE720CA41AB14B9E0023154D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE720CA61AB14B9E0023154D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE720CA91AB14B9E0023154D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE720CAF1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreViewNetWorkStausManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE720CB41AB14B9E0023154D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE720CB51AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreViewNetWorkStausManagerTests.m; sourceTree = "<group>"; };
+		EE720CC01AB14BD20023154D /* CoreViewNetWorkStausManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreViewNetWorkStausManager.h; sourceTree = "<group>"; };
+		EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreViewNetWorkStausManager.m; sourceTree = "<group>"; };
+		EE720CC41AB14D490023154D /* CMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMView.h; sourceTree = "<group>"; };
+		EE720CC51AB14D490023154D /* CMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMView.m; sourceTree = "<group>"; };
+		EE720CC71AB14D5F0023154D /* CMView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMView.xib; sourceTree = "<group>"; };
+		EE720CC91AB14DDF0023154D /* CM.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CM.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE720C931AB14B9E0023154D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE720CAC1AB14B9E0023154D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE720C8D1AB14B9E0023154D = {
+			isa = PBXGroup;
+			children = (
+				EE720C981AB14B9E0023154D /* CoreViewNetWorkStausManager */,
+				EE720CB21AB14B9E0023154D /* CoreViewNetWorkStausManagerTests */,
+				EE720C971AB14B9E0023154D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE720C971AB14B9E0023154D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE720C961AB14B9E0023154D /* CoreViewNetWorkStausManager.app */,
+				EE720CAF1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE720C981AB14B9E0023154D /* CoreViewNetWorkStausManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE720CBF1AB14BC30023154D /* CoreViewNetWorkStausManager */,
+				EE720C9D1AB14B9E0023154D /* AppDelegate.h */,
+				EE720C9E1AB14B9E0023154D /* AppDelegate.m */,
+				EE720CA01AB14B9E0023154D /* ViewController.h */,
+				EE720CA11AB14B9E0023154D /* ViewController.m */,
+				EE720CA31AB14B9E0023154D /* Main.storyboard */,
+				EE720CA61AB14B9E0023154D /* Images.xcassets */,
+				EE720CA81AB14B9E0023154D /* LaunchScreen.xib */,
+				EE720C991AB14B9E0023154D /* Supporting Files */,
+			);
+			path = CoreViewNetWorkStausManager;
+			sourceTree = "<group>";
+		};
+		EE720C991AB14B9E0023154D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE720C9A1AB14B9E0023154D /* Info.plist */,
+				EE720C9B1AB14B9E0023154D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE720CB21AB14B9E0023154D /* CoreViewNetWorkStausManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE720CB51AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m */,
+				EE720CB31AB14B9E0023154D /* Supporting Files */,
+			);
+			path = CoreViewNetWorkStausManagerTests;
+			sourceTree = "<group>";
+		};
+		EE720CB31AB14B9E0023154D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE720CB41AB14B9E0023154D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE720CBF1AB14BC30023154D /* CoreViewNetWorkStausManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE720CC01AB14BD20023154D /* CoreViewNetWorkStausManager.h */,
+				EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */,
+				EE720CC31AB14D3A0023154D /* Lib */,
+			);
+			path = CoreViewNetWorkStausManager;
+			sourceTree = "<group>";
+		};
+		EE720CC31AB14D3A0023154D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EE720CC91AB14DDF0023154D /* CM.bundle */,
+				EE720CC41AB14D490023154D /* CMView.h */,
+				EE720CC51AB14D490023154D /* CMView.m */,
+				EE720CC71AB14D5F0023154D /* CMView.xib */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE720C951AB14B9E0023154D /* CoreViewNetWorkStausManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE720CB91AB14B9E0023154D /* Build configuration list for PBXNativeTarget "CoreViewNetWorkStausManager" */;
+			buildPhases = (
+				EE720C921AB14B9E0023154D /* Sources */,
+				EE720C931AB14B9E0023154D /* Frameworks */,
+				EE720C941AB14B9E0023154D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreViewNetWorkStausManager;
+			productName = CoreViewNetWorkStausManager;
+			productReference = EE720C961AB14B9E0023154D /* CoreViewNetWorkStausManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE720CAE1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE720CBC1AB14B9E0023154D /* Build configuration list for PBXNativeTarget "CoreViewNetWorkStausManagerTests" */;
+			buildPhases = (
+				EE720CAB1AB14B9E0023154D /* Sources */,
+				EE720CAC1AB14B9E0023154D /* Frameworks */,
+				EE720CAD1AB14B9E0023154D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE720CB11AB14B9E0023154D /* PBXTargetDependency */,
+			);
+			name = CoreViewNetWorkStausManagerTests;
+			productName = CoreViewNetWorkStausManagerTests;
+			productReference = EE720CAF1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE720C8E1AB14B9E0023154D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = muxi;
+				TargetAttributes = {
+					EE720C951AB14B9E0023154D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EE720CAE1AB14B9E0023154D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EE720C951AB14B9E0023154D;
+					};
+				};
+			};
+			buildConfigurationList = EE720C911AB14B9E0023154D /* Build configuration list for PBXProject "CoreViewNetWorkStausManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE720C8D1AB14B9E0023154D;
+			productRefGroup = EE720C971AB14B9E0023154D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE720C951AB14B9E0023154D /* CoreViewNetWorkStausManager */,
+				EE720CAE1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE720C941AB14B9E0023154D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE720CA51AB14B9E0023154D /* Main.storyboard in Resources */,
+				EE720CAA1AB14B9E0023154D /* LaunchScreen.xib in Resources */,
+				EE720CC81AB14D5F0023154D /* CMView.xib in Resources */,
+				EE720CCA1AB14DDF0023154D /* CM.bundle in Resources */,
+				EE720CA71AB14B9E0023154D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE720CAD1AB14B9E0023154D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE720C921AB14B9E0023154D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE720CA21AB14B9E0023154D /* ViewController.m in Sources */,
+				EE720CC21AB14BD20023154D /* CoreViewNetWorkStausManager.m in Sources */,
+				EE720C9F1AB14B9E0023154D /* AppDelegate.m in Sources */,
+				EE720C9C1AB14B9E0023154D /* main.m in Sources */,
+				EE720CC61AB14D490023154D /* CMView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE720CAB1AB14B9E0023154D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE720CB61AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE720CB11AB14B9E0023154D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE720C951AB14B9E0023154D /* CoreViewNetWorkStausManager */;
+			targetProxy = EE720CB01AB14B9E0023154D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE720CA31AB14B9E0023154D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE720CA41AB14B9E0023154D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE720CA81AB14B9E0023154D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE720CA91AB14B9E0023154D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE720CB71AB14B9E0023154D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE720CB81AB14B9E0023154D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE720CBA1AB14B9E0023154D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreViewNetWorkStausManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE720CBB1AB14B9E0023154D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreViewNetWorkStausManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE720CBD1AB14B9E0023154D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreViewNetWorkStausManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreViewNetWorkStausManager.app/CoreViewNetWorkStausManager";
+			};
+			name = Debug;
+		};
+		EE720CBE1AB14B9E0023154D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreViewNetWorkStausManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreViewNetWorkStausManager.app/CoreViewNetWorkStausManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE720C911AB14B9E0023154D /* Build configuration list for PBXProject "CoreViewNetWorkStausManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE720CB71AB14B9E0023154D /* Debug */,
+				EE720CB81AB14B9E0023154D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE720CB91AB14B9E0023154D /* Build configuration list for PBXNativeTarget "CoreViewNetWorkStausManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE720CBA1AB14B9E0023154D /* Debug */,
+				EE720CBB1AB14B9E0023154D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE720CBC1AB14B9E0023154D /* Build configuration list for PBXNativeTarget "CoreViewNetWorkStausManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE720CBD1AB14B9E0023154D /* Debug */,
+				EE720CBE1AB14B9E0023154D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE720C8E1AB14B9E0023154D /* Project object */;
+}
