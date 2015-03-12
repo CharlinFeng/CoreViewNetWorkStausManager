@@ -162,10 +162,16 @@
         
         CGSize contentSize=scrollView.contentSize;
         
-        CGSize size=(CGSizeEqualToSize(contentSize, CGSizeZero))?(scrollView.bounds.size):(scrollView.contentSize);
+        BOOL hasContentSize=(CGSizeEqualToSize(contentSize, CGSizeZero));
+        
+        CGSize size=CGSizeZero;
+        if(hasContentSize){
+            size=scrollView.contentSize;
+        }else{
+            size=scrollView.frame.size;
+        }
         
         metrics=@{@"w":@(size.width),@"h":@(size.height),@"y":@(_offsetY)};
-        
         vfl_H=@"H:|-0-[selfView(==w)]-0-|";
         vfl_V=@"V:|-y-[selfView(==h)]-0-|";
 
