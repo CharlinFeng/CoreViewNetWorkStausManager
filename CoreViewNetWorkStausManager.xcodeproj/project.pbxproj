@@ -14,10 +14,10 @@
 		EE720CA71AB14B9E0023154D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE720CA61AB14B9E0023154D /* Images.xcassets */; };
 		EE720CAA1AB14B9E0023154D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE720CA81AB14B9E0023154D /* LaunchScreen.xib */; };
 		EE720CB61AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CB51AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m */; };
-		EE720CC21AB14BD20023154D /* CoreViewNetWorkStausManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */; };
-		EE720CC61AB14D490023154D /* CMView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE720CC51AB14D490023154D /* CMView.m */; };
-		EE720CC81AB14D5F0023154D /* CMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE720CC71AB14D5F0023154D /* CMView.xib */; };
-		EE720CCA1AB14DDF0023154D /* CM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE720CC91AB14DDF0023154D /* CM.bundle */; };
+		EE8229081AC171C8004049D7 /* CoreViewNetWorkStausManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8229021AC171C8004049D7 /* CoreViewNetWorkStausManager.m */; };
+		EE8229091AC171C8004049D7 /* CM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE8229041AC171C8004049D7 /* CM.bundle */; };
+		EE82290A1AC171C8004049D7 /* CMView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8229061AC171C8004049D7 /* CMView.m */; };
+		EE82290B1AC171C8004049D7 /* CMView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8229071AC171C8004049D7 /* CMView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +44,12 @@
 		EE720CAF1AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreViewNetWorkStausManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE720CB41AB14B9E0023154D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE720CB51AB14B9E0023154D /* CoreViewNetWorkStausManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreViewNetWorkStausManagerTests.m; sourceTree = "<group>"; };
-		EE720CC01AB14BD20023154D /* CoreViewNetWorkStausManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreViewNetWorkStausManager.h; sourceTree = "<group>"; };
-		EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreViewNetWorkStausManager.m; sourceTree = "<group>"; };
-		EE720CC41AB14D490023154D /* CMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMView.h; sourceTree = "<group>"; };
-		EE720CC51AB14D490023154D /* CMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMView.m; sourceTree = "<group>"; };
-		EE720CC71AB14D5F0023154D /* CMView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMView.xib; sourceTree = "<group>"; };
-		EE720CC91AB14DDF0023154D /* CM.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CM.bundle; sourceTree = "<group>"; };
+		EE8229011AC171C8004049D7 /* CoreViewNetWorkStausManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreViewNetWorkStausManager.h; sourceTree = "<group>"; };
+		EE8229021AC171C8004049D7 /* CoreViewNetWorkStausManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreViewNetWorkStausManager.m; sourceTree = "<group>"; };
+		EE8229041AC171C8004049D7 /* CM.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CM.bundle; sourceTree = "<group>"; };
+		EE8229051AC171C8004049D7 /* CMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMView.h; sourceTree = "<group>"; };
+		EE8229061AC171C8004049D7 /* CMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMView.m; sourceTree = "<group>"; };
+		EE8229071AC171C8004049D7 /* CMView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		EE720C981AB14B9E0023154D /* CoreViewNetWorkStausManager */ = {
 			isa = PBXGroup;
 			children = (
-				EE720CBF1AB14BC30023154D /* CoreViewNetWorkStausManager */,
+				EE8229001AC171C8004049D7 /* CoreViewNetWorkStausManager */,
 				EE720C9D1AB14B9E0023154D /* AppDelegate.h */,
 				EE720C9E1AB14B9E0023154D /* AppDelegate.m */,
 				EE720CA01AB14B9E0023154D /* ViewController.h */,
@@ -130,23 +130,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EE720CBF1AB14BC30023154D /* CoreViewNetWorkStausManager */ = {
+		EE8229001AC171C8004049D7 /* CoreViewNetWorkStausManager */ = {
 			isa = PBXGroup;
 			children = (
-				EE720CC01AB14BD20023154D /* CoreViewNetWorkStausManager.h */,
-				EE720CC11AB14BD20023154D /* CoreViewNetWorkStausManager.m */,
-				EE720CC31AB14D3A0023154D /* Lib */,
+				EE8229011AC171C8004049D7 /* CoreViewNetWorkStausManager.h */,
+				EE8229021AC171C8004049D7 /* CoreViewNetWorkStausManager.m */,
+				EE8229031AC171C8004049D7 /* Lib */,
 			);
 			path = CoreViewNetWorkStausManager;
 			sourceTree = "<group>";
 		};
-		EE720CC31AB14D3A0023154D /* Lib */ = {
+		EE8229031AC171C8004049D7 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				EE720CC91AB14DDF0023154D /* CM.bundle */,
-				EE720CC41AB14D490023154D /* CMView.h */,
-				EE720CC51AB14D490023154D /* CMView.m */,
-				EE720CC71AB14D5F0023154D /* CMView.xib */,
+				EE8229041AC171C8004049D7 /* CM.bundle */,
+				EE8229051AC171C8004049D7 /* CMView.h */,
+				EE8229061AC171C8004049D7 /* CMView.m */,
+				EE8229071AC171C8004049D7 /* CMView.xib */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -232,9 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE720CA51AB14B9E0023154D /* Main.storyboard in Resources */,
+				EE82290B1AC171C8004049D7 /* CMView.xib in Resources */,
+				EE8229091AC171C8004049D7 /* CM.bundle in Resources */,
 				EE720CAA1AB14B9E0023154D /* LaunchScreen.xib in Resources */,
-				EE720CC81AB14D5F0023154D /* CMView.xib in Resources */,
-				EE720CCA1AB14DDF0023154D /* CM.bundle in Resources */,
 				EE720CA71AB14B9E0023154D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,10 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE720CA21AB14B9E0023154D /* ViewController.m in Sources */,
-				EE720CC21AB14BD20023154D /* CoreViewNetWorkStausManager.m in Sources */,
+				EE8229081AC171C8004049D7 /* CoreViewNetWorkStausManager.m in Sources */,
 				EE720C9F1AB14B9E0023154D /* AppDelegate.m in Sources */,
 				EE720C9C1AB14B9E0023154D /* main.m in Sources */,
-				EE720CC61AB14D490023154D /* CMView.m in Sources */,
+				EE82290A1AC171C8004049D7 /* CMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +448,7 @@
 				EE720CBB1AB14B9E0023154D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE720CBC1AB14B9E0023154D /* Build configuration list for PBXNativeTarget "CoreViewNetWorkStausManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				EE720CBE1AB14B9E0023154D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
