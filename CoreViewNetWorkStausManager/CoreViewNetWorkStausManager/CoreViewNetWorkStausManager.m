@@ -22,12 +22,14 @@
         //创建CMView
         CMView *myCmView=[CMView cmViewWithType:type msg:msg subMsg:subMsg offsetY:offsetY failClickBlock:failClickBlock];
         
+        myCmView.backgroundColor = [UIColor whiteColor];
+        
         [view addSubview:myCmView];
         
-        myCmView.alpha=0;
-        [UIView animateWithDuration:.25f animations:^{
-            myCmView.alpha=1.0f;
-        }];
+//        myCmView.alpha=0;
+//        [UIView animateWithDuration:.25f animations:^{
+//            myCmView.alpha=1.0f;
+//        }];
     });
     
 }
