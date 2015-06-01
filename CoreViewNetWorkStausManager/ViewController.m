@@ -38,7 +38,7 @@
 
 - (IBAction)hideMsgView:(id)sender {
     
-    [CoreViewNetWorkStausManager dismiss:self.view];
+    [CoreViewNetWorkStausManager dismiss:self.view animated:YES];
 }
 
 @end
