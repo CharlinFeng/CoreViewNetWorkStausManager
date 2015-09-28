@@ -1,7 +1,7 @@
 
     Charlin出框架的目标：简单、易用、实用、高度封装、绝对解耦！
 
-### CoreViewNetWorkStausManager （持续关注[信息公告牌](https://github.com/CharlinFeng/Show)）
+## CoreViewNetWorkStausManager （持续关注[信息公告牌](https://github.com/CharlinFeng/Show)）
     网络状态提示图层管理者，提高你的app的逼格与细节。
 <br />
 ####框架特性：<br />
